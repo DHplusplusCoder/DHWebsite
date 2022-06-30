@@ -1,0 +1,77 @@
+
+.navbar {
+    background-color: goldenrod;
+    height: 90px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.header {
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+.nav-menu  {
+    background-color:#060b26;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /*position:fixed;*/    
+    top: 0px;
+    left: -100%;
+    transition: 850ms;
+}
+
+.nav-menu active {
+    left: 0;
+    transition: 400ms;
+}
+
+.nav-menu-items {
+    background-color: lightcyan;
+}
+.navbar-toggle {
+    background-color: goldenrod;
+    width: 100%;
+    height: 80px;
+    display: flex;
+justify-content: flex-start;
+    align-items: center;
+}
+
+
+.nav-text {
+    display: flex; 
+    justify-content: flex-start;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0px 8px 18px;
+    list-style: none;
+    height: 50px;
+}
+.nav-text a {
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 18px;
+    width:95%;
+    height:100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 12px;
+    border-radius: 4px;
+}
+.nav-text a:hover {
+    text-decoration: none;
+    background-color: #1a83ff;
+}
+
+span {
+    margin-left: 15px;
+}
