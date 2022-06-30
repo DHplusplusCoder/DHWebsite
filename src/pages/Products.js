@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import {Link} from 'react-router-dom';
+import "./Products.css"
 function Products() {
   return (
 <div className="wrapper">

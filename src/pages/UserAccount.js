@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom/client';
 import './UserAccount.css';
+import PizzaImage from "./pizza.jpg"
 function UserAccount() {
   return (
 <div className="wrapper">
